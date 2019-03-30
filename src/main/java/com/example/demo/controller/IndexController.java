@@ -16,7 +16,6 @@ public class IndexController {
     public String hello(String name){
         // 获取IP地址
         try {
-            1
             String ip = InetAddress.getLocalHost().getHostAddress();
             String msg = String.format("Hello!you are %s,the ip is %s !",name,ip);
             return msg;
