@@ -17,7 +17,7 @@ public class IndexController {
         // 获取IP地址
         try {
             String ip = InetAddress.getLocalHost().getHostAddress();
-            String msg = String.format("jenkins updated test,Hello!you are %s,the ip is %s !",name,ip);
+            String msg = String.format("新代码,Hello!you are %s,the ip is %s !",name,ip);
             return msg;
         } catch (UnknownHostException e) {
             e.printStackTrace();
